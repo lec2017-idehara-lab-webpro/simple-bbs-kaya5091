@@ -1,0 +1,17 @@
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  background-repeat: no-repeat;
+  height: 100%;
+  color: white;
+}
+
+a {
+  color: #ff2b2b;
+  text-decoration: none;
+}

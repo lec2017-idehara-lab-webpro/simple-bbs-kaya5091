@@ -3,11 +3,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Simple BBS</title>
+    <title>掲示板</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
-<h1>Simple BBS</h1>
+<h1>多摩大 掲示板</h1>
 
 <?php
   if( isset($_SESSION['login']) && strlen($_SESSION['login'])>0 )
@@ -15,7 +16,14 @@
   print "<a href='login.php'>LOGIN</a>";
 ?>
 
-<hr />
+<!-- <hr /> -->
+<br>
+
+<table>
+  <tr>
+    
+  </tr>
+</table>
 
 <?php
   include_once('database.php');
